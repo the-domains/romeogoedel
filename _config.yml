@@ -1,28 +1,40 @@
-name: Romeogoedel
-favicon: null
-layout_spectrum: 0.20941703766584396
-typography_spectrum: 0.7779665202833712
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#71A7FE'
-    - '#399AE7'
-    - '#3B407C'
-    - '#547AB1'
-    - '#CEAFC0'
-  brandStrength: 0.6136822805274278
-  lightness: 0.954610823886469
-  saturation: 0.6701483419165015
-  rhythmicContrast: 0.6521201136056334
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.6701483419165015
+  brandStrength: 0.6971326
+  lightness: 0.954610823886469
+  brandColors:
+    - '#0F0D0F'
+    - '#774A3A'
+    - '#FAEAD8'
+    - '#BDAB9B'
+    - '#5D74B5'
+  rhythmicContrast: 0.6521201136056334
+typography_spectrum: 0.2992831
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.9265233
+favicon: null
+name: Romeogoedel
